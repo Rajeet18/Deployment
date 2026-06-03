@@ -7,7 +7,7 @@ model=joblib.load("Loan_approval_model.joblib")
 
 @app.get("/")
 def home():
-    return {"message": "loan REJECT"}
+    return {"message": "loan approval for me"}
 
 # cd API
 #  python -m uvicorn loan:app --reload
